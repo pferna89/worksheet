@@ -1,0 +1,8 @@
+echo "# worksheet" >> README.md
+git init
+git add README.md
+git commit -m "select 'hello world' from dual"
+git branch -M main
+git remote add origin https://github.com/pferna89/worksheet.git
+git push -u origin main
+git commit
